@@ -1,7 +1,14 @@
 body{
     margin:0 0 0 0;
     background-color: #007f00;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headerBtnsDiv{
