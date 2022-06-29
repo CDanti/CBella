@@ -1,0 +1,27 @@
+body{
+    margin:0 0 0 0;
+    background-color: #007f00;
+    /* display: flex; */
+}
+
+.headerBtnsDiv{
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 22px 20px;
+    gap: 8px;
+    justify-content: center;
+}
+
+.headerBtns{
+    color: #a19d84;
+    transition-duration: 0.4s;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+.headerBtns:hover{
+    color: #002E56;
+    border: 5px solid #7FB133; 
+}
