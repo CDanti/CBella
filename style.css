@@ -10,7 +10,7 @@ body{
 .CBellaLogo{
     height: 80px;
     width: auto;
-    margin-left: 10px;
+    margin-left: 10%;
 }
 
 .midContent{
@@ -29,13 +29,16 @@ body{
     /* padding: 22px 20px 22px 20px; */
     gap: 8px;
     align-items: center;
-    background-color: rgb(37, 36, 36);
+    background-color:#002E56;
     /* position: sticky;
     top:0; */
+
 }
 
 .headerBtnsGroup{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: azure;
     width: 100%;
     /* margin-left: 10%; */
