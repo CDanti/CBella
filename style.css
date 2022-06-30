@@ -4,25 +4,43 @@ body{
     /* 007f00 */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 1000px;
+}
+
+.CBellaLogo{
+    height: 80px;
+    width: auto;
+    margin-left: 10px;
 }
 
 .midContent{
     display:flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
     background-color: #d2d2ba;
     width: 70%;
 }
 
 .headerBtnsDiv{
     display: flex;
-    height: auto;
-    width: auto;
-    padding: 22px 20px 22px 20px;;
+    height: 100px;
+    width: 100%;
+    /* padding: 22px 20px 22px 20px; */
     gap: 8px;
-    justify-content: center;
-    background-color: black;
+    align-items: center;
+    background-color: rgb(37, 36, 36);
+    /* position: sticky;
+    top:0; */
+}
+
+.headerBtnsGroup{
+    display: flex;
+    background-color: azure;
+    width: 100%;
+    /* margin-left: 10%; */
+    gap: 10px;
+    padding: 10px;
 }
 
 .headerBtns{
@@ -30,9 +48,11 @@ body{
     transition-duration: 0.4s;
     height: 50px;
     font-weight: bold;
+    font-size: 16px;
     box-sizing: border-box;
     padding: 1rem;
-    text-align:center;
+    height: 70px;
+    width: 100px;
 }
 
 
