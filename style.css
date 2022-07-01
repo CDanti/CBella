@@ -1,54 +1,35 @@
 body{
     margin:0 0 0 0;
     background-color: #377037; 
-    /* 007f00 */
     display: flex;
     flex-direction: column;
-    height: 1000px;
 }
-
 .CBellaLogo{
     height: 80px;
     width: auto;
-    margin-left: 10%;
+    margin: 0 2.5% 0 2.5%;
 }
-
-.midContent{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
-    background-color: #d2d2ba;
-    width: 70%;
-}
-
-.headerBtnsDiv{
-    display: flex;
-    height: 100px;
-    width: 100%;
-    /* padding: 22px 20px 22px 20px; */
-    gap: 8px;
-    align-items: center;
-    background-color:#002E56;
-    /* position: sticky;
-    top:0; */
-
-}
-
-.headerBtnsGroup{
+nav{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: azure;
-    width: 100%;
-    /* margin-left: 10%; */
-    gap: 10px;
-    padding: 10px;
 }
-
+.headerBtnsDiv{
+    display: flex;
+    align-items: center;;
+    height: 100px;
+    width: 70%;
+    gap: 8px;
+    background-color:#002E56;
+}
+.headerBtnsGroup{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
 .headerBtns{
     color: #a19d84;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
     height: 50px;
     font-weight: bold;
     font-size: 16px;
@@ -57,9 +38,55 @@ body{
     height: 70px;
     width: 100px;
 }
-
-
 .headerBtns:hover{
     color: #002E56;
     border: 5px solid #7FB133; 
+}
+.midContent{
+    background-color: #d2d2ba;
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    justify-items: center;
+    align-items:baseline;
+    
+}
+
+.midLayer1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 0 0 0;
+}
+
+.imgScroller{
+    height: 300px;
+    width: 35%;
+    border: 5px solid black;
+}
+
+.companyDesc{
+    height: 300px;
+    width: 40%;
+    border: 5px solid maroon;
+}
+
+.midLayer2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 0 0 0;
+}
+
+.customerReviews{
+    height: 300px;
+    width: 40%;
+    border: 5px solid green;
+}
+
+.facebookBox{
+    height: 300px;
+    width: 35%;
+    border: 5px solid teal;
 }
